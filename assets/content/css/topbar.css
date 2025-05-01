@@ -22,7 +22,6 @@
 }
 
 #topBarButton:hover {
-  background-color: rgb(100, 100, 100);
   padding-bottom: 1%;
   border-bottom: 7px solid #000;
   border-left: 7px solid #000;
