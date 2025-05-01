@@ -33,3 +33,4 @@ async function addContents() {
 }*/
 
 addTopBar();
+addContents();
