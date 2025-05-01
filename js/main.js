@@ -10,6 +10,11 @@ async function addTopBar() {
     await inserter.set("top-bar", "/assets/content/topBar.html");
     inserter.insert();
 }
+async function addBilder() {
+    var inserter = new FileInserter();
+    await inserter.set("Bilder", "/assets/content/bilder.html");
+    inserter.insert();
+}
 
 /*function fillInData() {
     $.ajax({
