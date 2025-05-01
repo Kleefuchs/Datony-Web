@@ -1,6 +1,5 @@
 
 #topbar {
-  scroll-behavior: smooth;
   background-color: rgb(255, 255, 255);
   border-bottom: 8px solid #000;
   width: 100%;
@@ -10,7 +9,6 @@
 
 
 #topBarButton {
-  scroll-behavior: smooth;
   transition: all 600ms ease;
   background-color: rgb(50, 50, 50);
   font-size: 3vw;
