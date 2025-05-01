@@ -2,27 +2,31 @@
 
 #topbar {
   background-color: rgb(255, 255, 255);
-  border-bottom: 10px solid #000;
+  border-bottom: 8px solid #000;
   width: 100%;
-  transition: all 2000ms ease;
   display: flex;
   justify-content: center;
 }
 
 
 #topBarButton {
+  transition: all 600ms ease;
   background-color: rgb(50, 50, 50);
   font-size: 3vw;
   text-align: center;
   color: white;
-  transition: all 200ms ease;
-  transform: scale(1);
+  transform: (1);
   padding-left: 1%;
   padding-right: 1%;
 }
 
 #topBarButton:hover {
+<<<<<<< Updated upstream
+=======
+  transition: all 800ms ease;
+>>>>>>> Stashed changes
   padding-bottom: 1%;
+  border-top: 7px solid #000;
   border-bottom: 7px solid #000;
   border-left: 7px solid #000;
   border-right: 7px solid #000;
