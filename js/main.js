@@ -7,7 +7,7 @@
 
 async function addTopBar() {
     var inserter = new FileInserter();
-    await inserter.set("top-bar", "assets/content/topBar.html");
+    await inserter.set("top-bar", "/assets/content/topBar.html");
     inserter.insert();
 }
 
@@ -25,4 +25,3 @@ async function addTopBar() {
 }*/
 
 addTopBar();
-fillInData();
