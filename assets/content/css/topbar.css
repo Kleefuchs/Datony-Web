@@ -21,10 +21,7 @@
 }
 
 #topBarButton:hover {
-<<<<<<< Updated upstream
-=======
-  transition: all 800ms ease;
->>>>>>> Stashed changes
+  transition: all 600ms ease;
   padding-bottom: 1%;
   border-top: 7px solid #000;
   border-bottom: 7px solid #000;
