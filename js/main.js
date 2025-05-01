@@ -7,11 +7,11 @@
 
 async function addTopBar() {
     var inserter = new FileInserter();
-    await inserter.set("top-bar", "./../assets/content/topBar.html");
+    await inserter.set("top-bar","./../assets/content/topBar.html");
     inserter.insert();
 }
 
-function fillInData() {
+/*function fillInData() {
     $.ajax({
         async: false,
         url: "/assets/JSON/data.json",
@@ -22,7 +22,7 @@ function fillInData() {
             inserter.insert();
         }
     });
-}
+}*/
 
 addTopBar();
 fillInData();
