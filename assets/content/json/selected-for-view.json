@@ -1,0 +1,7 @@
+{
+  images: {
+    paths = [
+      "/assets/images/bild.png",
+    ],
+  },
+}

@@ -1,0 +1,31 @@
+
+#location {
+  background-color: rgb(20, 20, 20);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#location-window {
+  text-align: center;
+  background-color: rgb(35,35,35);
+  border-radius: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#location-title {
+  color: white;
+  background-color: rgb(100, 100,100);
+  border-radius: 5%;
+  padding: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-size: 2vw;
+}
+
+#location-map {
+  margin-top: 5%;
+  border-radius: 5%;
+}
