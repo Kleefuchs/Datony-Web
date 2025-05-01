@@ -6,14 +6,13 @@ This Code was written by Samuel Brecht (Kleefuchs) in 2024 pls contact him if yo
 This code requires Inserter
 */
 
-
 class FileInserter extends Inserter {
-    async set(name, path) {
-        await fetch(path)
-        .then((res) => res.text())
-        .then((text) => {
-            this.entries.set(name, text);
-        })
-        .catch((e) => console.error(e));
-    }
+  async set(name, path) {
+    await fetch(path)
+      .then((res) => res.text())
+      .then((text) => {
+        this.entries.set(name, text);
+      })
+      .catch((e) => console.error(e));
+  }
 }
