@@ -19,7 +19,6 @@
   padding-right: 1%;
 }
 #topBarButton:hover {
-  scroll-behavior: smooth;
   transition: all 600ms ease;
   padding-bottom: 1%;
   border-top: 7px solid #000;
