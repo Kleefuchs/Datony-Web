@@ -12,7 +12,7 @@ async function addTopBar() {
 }
 async function addBilder() {
     var inserter = new FileInserter();
-    await inserter.set("Bilder", "/assets/content/bilder.html");
+    await inserter.set("pictures", "/assets/content/bilder.html");
     inserter.insert();
 }
 
