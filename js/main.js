@@ -10,10 +10,13 @@ async function addTopBar() {
     await inserter.set("top-bar", "/assets/content/topBar.html");
     inserter.insert();
 }
-async function addBilder() {
-    var inserter = new FileInserter();
-    await inserter.set("pictures", "/assets/content/bilder.html");
-    inserter.insert();
+async function addContents() {
+  var inserter = new FileInserter();
+  await inserter.set("pictures", "/assets/content/pictures.html");
+  await inserter.set("menu", "/assets/content/menu.html");
+  await inserter.set("location", "/assets/content/location.html");
+  await inserter.set("data", "assets/content/data.html");
+  inserter.insert();
 }
 
 /*function fillInData() {
