@@ -1,8 +1,10 @@
+import * as jquery3 from '../node_modules/jquery/dist/jquery.min.js';
+
 /*
 This Code was written by Samuel Brecht (Kleefuchs) in 2024 pls contact him if you want to use it.
 */
 
-class Inserter {
+export class Inserter {
   ignoreNotPresent = false;
   entries = new Map();
 

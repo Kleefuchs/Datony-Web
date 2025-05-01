@@ -1,3 +1,5 @@
+import {Inserter} from "/js/Inserter.mjs";
+
 /*
 This Code was written by Samuel Brecht (Kleefuchs) in 2024 pls contact him if you want to use it.
 */
@@ -6,7 +8,7 @@ This Code was written by Samuel Brecht (Kleefuchs) in 2024 pls contact him if yo
 This code requires Inserter
 */
 
-class FileInserter extends Inserter {
+export class FileInserter extends Inserter {
   async set(name, path) {
     await fetch(path)
       .then((res) => res.text())

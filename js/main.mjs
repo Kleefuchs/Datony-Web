@@ -1,3 +1,5 @@
+import {FileInserter} from "/js/FileInserter.mjs";
+
 /*function addTopBar() {
     var inserter = new JSONInserter();
     inserter.set("topBar", "/assets/JSON/topBar.json");
