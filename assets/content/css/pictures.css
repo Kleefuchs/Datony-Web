@@ -1,11 +1,9 @@
 #IceClear {
-position: relative;
-top: 900vw;
-width: 500px;
-height: 500px;
+  position: relative;
+  width: 500px;
+  height: 500px;
 }
 
 #pictures{
-position: relative;
-top: 100vw;
+  position: relative;
 }
