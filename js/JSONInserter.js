@@ -7,20 +7,19 @@ Note this requires JQuery and HTMLInserter.
 Note this expects an array of strings at data.html named lines (data.html.lines)
 */
 
-
 class JSONInserter extends Inserter {
-    set(name, path) {
-        var htmlContent = "";
-        $.ajax({
-            async: false,
-            url: path,
-            success: function(jd) {
-                var lines = jd.data.html.lines;
-                lines.forEach(line => {
-                    htmlContent += line;
-                });
-            }
+  set(name, path) {
+    var htmlContent = "";
+    $.ajax({
+      async: false,
+      url: path,
+      success: function (jd) {
+        var lines = jd.data.html.lines;
+        lines.forEach((line) => {
+          htmlContent += line;
         });
-        this.entries.set(name, htmlContent);
-    }
+      },
+    });
+    this.entries.set(name, htmlContent);
+  }
 }

@@ -1,4 +1,3 @@
-
 /*function addTopBar() {
     var inserter = new JSONInserter();
     inserter.set("topBar", "/assets/JSON/topBar.json");
@@ -6,9 +5,9 @@
 }*/
 
 async function addTopBar() {
-    var inserter = new FileInserter();
-    await inserter.set("top-bar", "/assets/content/topBar.html");
-    inserter.insert();
+  var inserter = new FileInserter();
+  await inserter.set("top-bar", "/assets/content/topBar.html");
+  inserter.insert();
 }
 async function addContents() {
   var inserter = new FileInserter();
