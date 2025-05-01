@@ -1,7 +1,7 @@
 
 
 #topbar {
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(200, 200, 200);
   width: 100%;
 }
 
@@ -11,7 +11,7 @@
   text-align: center;
   color: white;
   width: 100%;
-  transition: all 250ms ease;
+  transition: all 150ms ease;
   transform: scale(1);
   padding-left: 1%;
   padding-right: 1%;
@@ -19,7 +19,10 @@
 
 #topBarButton:hover {
   background-color: rgb(100, 100, 100);
-  padding-bottom: 1.5%;
+  padding-bottom: 1%;
   padding-left: 1.5%;
   padding-right: 1.5%;
+  border-bottom: 7px solid #000;
+  border-left: 7px solid #000;
+  border-right: 7px solid #000;
 }
