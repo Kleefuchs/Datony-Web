@@ -1,10 +1,13 @@
-import * as jquery3 from '../node_modules/jquery/dist/jquery.min.js';
+import * as jquery3 from '/node_modules/jquery/dist/jquery.min.js';
 
 export class ImageViewer {
   imagesPaths;
-  loadImages(jsonPath) {
-    json = $.getJSON("/assets/content/json/selected-for-viewing.json");
-    this.imagesPaths = json["images"]["paths"];
-    console.log(imagesPaths);
+  async loadImages(jsonPath) {
+    console.info("Test");
+    await fetch(jsonPath)
+      .then((res) => {
+        console.log(res);
+      })
+      .catch((e) => console.error(e));
   }
-};
+}
