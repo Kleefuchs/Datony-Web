@@ -14,6 +14,7 @@ async function addTopBar() {
 }
 async function addContents() {
   var inserter = new FileInserter();
+  await inserter.set("introduction", "/assets/content/introduction.html");
   await inserter.set("pictures", "/assets/content/pictures.html");
   await inserter.set("reviews", "/assets/content/reviews.html");
   await inserter.set("menu", "/assets/content/menu.html");

@@ -44,4 +44,8 @@ export class ImageViewer {
   nextImage() {
     this.setImage(this.currentImageIndex + 1);
   }
+
+  prevImage() {
+    this.setImage(this.currentImageIndex - 1);
+  }
 }

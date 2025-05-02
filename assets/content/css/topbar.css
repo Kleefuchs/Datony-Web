@@ -12,7 +12,7 @@
 #topBarButton {
   transition: all 600ms ease;
   background-color: rgb(50, 50, 50);
-  font-size: 3vw;
+  font-size: 2.5vw;
   text-align: center;
   color: white;
   transform: (1);

@@ -9,5 +9,8 @@ export function initImageViewer() {
   var nextButton = document.getElementById("img-next-button").addEventListener("click", function() {
     imageViewer.nextImage();
   });
+  var prevButton = document.getElementById("img-prev-button").addEventListener("click", function() {
+    imageViewer.prevImage();
+  });
 }
 
