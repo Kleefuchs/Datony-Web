@@ -1,4 +1,5 @@
 import {FileInserter} from "/js/FileInserter.mjs";
+import { initImageViewer } from "/assets/content/js/pictures.mjs";
 
 /*function addTopBar() {
     var inserter = new JSONInserter();
@@ -21,18 +22,6 @@ async function addContents() {
   inserter.insert();
 }
 
-/*function fillInData() {
-    $.ajax({
-        async: false,
-        url: "/assets/JSON/data.json",
-        success: function(jd) {
-            var inserter = new Inserter();
-            inserter.ignoreNotPresent = true;
-            inserter.set("businessName", jd.data.name);
-            inserter.insert();
-        }
-    });
-}*/
-
 addTopBar();
-addContents();
+await addContents();
+initImageViewer();

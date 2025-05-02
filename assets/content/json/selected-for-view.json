@@ -1,7 +1,7 @@
 {
-  images: {
-    paths = [
-      "/assets/images/bild.png",
-    ],
-  },
+  "images": {
+    "paths": [
+      "/assets/images/bild.png"
+    ]
+  }
 }

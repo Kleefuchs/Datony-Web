@@ -1,9 +1,10 @@
 import { ImageViewer } from "/assets/content/js/imageviewer.mjs";
 
-async function initImageViewer() {
+export function initImageViewer() {
   var imageViewer = new ImageViewer();
-  console.info("Test");
-  await imageViewer.loadImages("/assets/content/json/selected-for-view.json");
+  imageViewer.setIMGViewElement("img-view");
+  imageViewer.loadImages("/assets/content/json/selected-for-view.json");
+  console.log(imageViewer.imagesPaths);
+  imageViewer.setImage(0);
 }
 
-initImageViewer();
