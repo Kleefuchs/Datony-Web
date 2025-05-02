@@ -12,6 +12,7 @@
 }
 
 .topBarButton {
+  text-decoration: none;
   transition: all 600ms ease;
   font-size: 2.5vw;
   text-align: center;
@@ -22,11 +23,21 @@
   border-radius: 5%;
 }
 
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
 .topBarButton:hover {
   transition: all 600ms ease;
-  padding-bottom: 1%;
-  border-top: 7px solid #000;
-  border-bottom: 7px solid #000;
-  border-left: 7px solid #000;
-  border-right: 7px solid #000;
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
 }
+
+
