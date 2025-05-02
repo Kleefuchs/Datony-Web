@@ -31,13 +31,11 @@ export class ImageViewer {
   setImage(index) {
     if(index < 0) {
       this.currentImageIndex = this.imagesPaths.length - 1;
-      return;
-    }
-    if(index > this.imagesPaths.length - 1) {
+    } else if(index > this.imagesPaths.length - 1) {
       this.currentImageIndex = 0;
-      return;
+    } else {
+      this.currentImageIndex = index;
     }
-    this.currentImageIndex = index;
     this.imgViewElement.src = this.imagesPaths[this.currentImageIndex];
     this._info("Image \"" + this.imagesPaths[this.currentImageIndex] + "\" was loaded. Index: " + this.currentImageIndex);
     return;
