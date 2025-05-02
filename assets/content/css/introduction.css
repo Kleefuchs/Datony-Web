@@ -1,0 +1,35 @@
+
+#introduction {
+  display: flex;
+  justify-content: center;
+  background-color: #EFDFBB;
+}
+
+#introduction-area {
+}
+
+#introduction-field {
+  opacity: 0.6;
+  backdrop-filter: blur(10px);
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  padding: 3%;
+  border-radius: 10%;
+  transform: translate(-50%, -50%);
+}
+
+#introduction-title {
+  font-size: 2.5vw;
+}
+
+#introduction-text {
+  font-size: 1.5vw;
+}
+
+#introduction-img-fix {
+  display: block;
+  border-radius: 10%;
+}
