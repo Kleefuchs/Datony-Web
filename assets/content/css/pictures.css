@@ -1,3 +1,45 @@
 
 #pictures{
+  background-color: #FFF0F5;
+  padding: 5%;
+}
+
+#img-view-area {
+  padding: 5%;
+  background-color: rgb(45, 45, 45);
+  border-radius: 5%;
+  text-align: center;
+}
+
+#img-view {
+  border-radius: 5%;
+  width: 90%;
+}
+
+#img-view-control-panel-container {
+  display: flex;
+  justify-content: center;
+}
+
+#img-view-control-panel {
+  background-color: rgb(25, 25, 25);
+  padding: 2.5%;
+  margin-top: 2%;
+  border-radius: 5%;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.img-view-control-panel-button {
+  padding: 5%;
+  border: none;
+  background-color: #F7E7CE;
+  border-radius: 5%;
+  transition: all 600ms ease;
+}
+
+.img-view-control-panel-button:hover {
+  background-color: #ffffff;
 }

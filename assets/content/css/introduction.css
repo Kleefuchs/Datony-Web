@@ -10,7 +10,6 @@
 
 #introduction-field {
   opacity: 0.6;
-  backdrop-filter: blur(10px);
   background-color: black;
   color: white;
   position: absolute;
