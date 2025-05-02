@@ -1,7 +1,4 @@
 #menu {
-  width: 100%;
-}
-
-#menu-img{
-    width: 100%;
+  display: flex;
+  justify-content: center;
 }
