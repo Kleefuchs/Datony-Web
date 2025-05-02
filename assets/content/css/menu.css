@@ -1,9 +1,7 @@
+#menu {
+  width: 100%;
+}
+
 #menu-img{
-    width: min-content;
-    position:relative;
-    scale: 200%;
-    top: -300px;
-    left: 35%;
-    padding-bottom: 55%;
-    padding-top: 70%;
+    width: 100%;
 }
