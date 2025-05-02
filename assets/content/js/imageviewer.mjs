@@ -6,7 +6,7 @@ export class ImageViewer {
   imgViewElement;
 
   _info(msg) {
-    console.info("IMAGEVIEWER: " + msg);
+    console.info("IMAGEVIEWER INFO: " + msg);
   }
 
   setIMGViewElement(id) {
