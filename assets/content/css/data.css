@@ -1,6 +1,6 @@
 #data {
-  background-color: rgb(228, 214, 138);
-  font-weight: 900;
+  background-color: rgb(65, 65, 65);
+  font-weight: 100;
   padding-top: 2%;
   padding-bottom: 2%;
   padding-left: 2%;
@@ -10,7 +10,7 @@
 #datapadding {
   position: relative;
   left: -0.3%;
-  padding: 0.2%;
+  padding: 0.5%;
   background-color: rgb(0, 0, 0);
   border-radius: 20%;
 }
@@ -19,7 +19,7 @@
 #phone-numbers {
     position: relative;
     bottom: 0px;
-    color: hsl(0, 0%, 0%);
+    color: rgb(255, 255, 255);
     font-family: serif;
     font-size: xx-large;
 }
@@ -27,9 +27,9 @@
 
 #emails {
     position: relative;
-    bottom: 178px;
-    left: 10%;
-    color: hsl(0, 0%, 0%);
+    bottom: 172px;
+    left: 15%;
+    color: rgb(255, 255, 255);
     font-family: serif;
     font-size: xx-large;
 }
