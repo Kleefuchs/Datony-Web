@@ -9,15 +9,13 @@
   background-color: rgb(30, 30, 30);
   border-radius: 5%;
   padding: 5%;
+  background-image: url('/assets/images/bild.png');
 }
 
 #introduction-field {
   opacity: 0.6;
   background-color: black;
   color: white;
-  position: absolute;
-  top: 70%;
-  left: 50%;
   padding: 3%;
   border-radius: 10%;
   transform: translate(-50%, -50%);
@@ -29,10 +27,4 @@
 
 #introduction-text {
   font-size: 1.5vw;
-}
-
-#introduction-img-fix {
-  display: block;
-  border-radius: 10%;
-  width: 90%;
 }
