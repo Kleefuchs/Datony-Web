@@ -38,9 +38,13 @@
   border: none;
   background-color: #F7E7CE;
   border-radius: 5%;
-  transition: all 150ms ease;
+  transition: all 1s;
 }
 
-.img-view-control-panel-button:hover {
-  background-color: #ffffff;
+.img-view-control-panel-button:hover{
+  background-color: #5b86ff;
 }
+
+
+
+
