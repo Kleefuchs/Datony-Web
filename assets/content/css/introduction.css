@@ -6,6 +6,9 @@
 }
 
 #introduction-area {
+  background-color: rgb(30, 30, 30);
+  border-radius: 5%;
+  padding: 5%;
 }
 
 #introduction-field {
@@ -31,4 +34,5 @@
 #introduction-img-fix {
   display: block;
   border-radius: 10%;
+  width: 90%;
 }

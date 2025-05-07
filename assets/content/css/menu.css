@@ -1,11 +1,19 @@
 #menu {
   display: flex;
   justify-content: center;
+  margin-top: 5%;
+}
+
+#menu-area {
+  padding: 5%;
+  background-color: rgb(36, 36, 36);
+  border-radius: 5%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
 
 #menu-img{
-    width: 70%;
-    padding: 2%;
-    background-color: rgb(36, 36, 36);
-    border-radius: 10%;
+  width: 95%;
+  border-radius: 5%;
 }
