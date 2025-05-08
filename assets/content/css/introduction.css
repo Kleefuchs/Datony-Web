@@ -29,3 +29,12 @@
 #introduction-text {
   font-size: 1.5vw;
 }
+
+@media (orientation: portrait) {
+  #introduction-title {
+    font-size: 2.5vh;
+  }
+  #introduction-text {
+    font-size: 1.75vh;
+  }
+}

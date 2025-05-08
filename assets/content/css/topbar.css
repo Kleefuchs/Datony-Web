@@ -42,4 +42,8 @@
   padding-top: 1%;
 }
 
-
+@media (orientation: portrait) {
+  .topBarButton {
+    font-size: 5vh;
+  }
+}

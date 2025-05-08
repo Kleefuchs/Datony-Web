@@ -46,6 +46,8 @@
   background-color: #5b86ff;
 }
 
-
-
-
+@media (orientation: portrait) {
+  .img-view-control-panel-button {
+    font-size: 1.5vh;
+  }
+}
