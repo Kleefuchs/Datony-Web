@@ -38,12 +38,12 @@
   border: none;
   background-color: #F7E7CE;
   border-radius: 5%;
-  transition: all 150ms;
+  transition: all 1000ms;
   font-size: 1.0vw;
 }
 
 .img-view-control-panel-button:hover{
-  background-color: #5b86ff;
+  background-color: #96b2ff;
 }
 
 @media (orientation: portrait) {
