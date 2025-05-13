@@ -1,0 +1,16 @@
+
+#authors {
+  background-color: rgb(200, 200, 255);
+  text-align: center;
+  padding: 2%;
+}
+
+#authors-title {
+  font-size: 1.5vw;
+}
+
+@media (orientation: portrait) {
+  #authors-title {
+    font-size: 1.75vh;
+  }
+}

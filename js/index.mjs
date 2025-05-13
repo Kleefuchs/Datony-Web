@@ -10,6 +10,7 @@ async function addContents() {
   await inserter.set("menu", "/assets/content/menu.html");
   await inserter.set("location", "/assets/content/location.html");
   await inserter.set("data", "/assets/content/data.html");
+  await inserter.set("authors", "/assets/content/authors.html");
   inserter.insert();
 }
 
