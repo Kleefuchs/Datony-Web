@@ -35,3 +35,13 @@
 .customer-testimony-text {
   font-size: 1vw;
 }
+
+
+@media (orientation: portrait) {
+  .customer-testimony-name {
+    font-size: 2vh;
+  }
+  .customer-testimony-text {
+    font-size: 1.25vh;
+  }
+}

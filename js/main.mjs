@@ -1,17 +1,7 @@
 import {FileInserter} from "/js/FileInserter.mjs";
 import { initImageViewer } from "/assets/content/js/pictures.mjs";
+import { addTopBar } from "/assets/content/js/topbar.mjs";
 
-/*function addTopBar() {
-    var inserter = new JSONInserter();
-    inserter.set("topBar", "/assets/JSON/topBar.json");
-    inserter.insert();
-}*/
-
-async function addTopBar() {
-  var inserter = new FileInserter();
-  await inserter.set("top-bar", "/assets/content/topBar.html");
-  inserter.insert();
-}
 async function addContents() {
   var inserter = new FileInserter();
   await inserter.set("introduction", "/assets/content/introduction.html");
