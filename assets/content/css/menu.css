@@ -4,6 +4,12 @@
   margin-top: 5%;
 }
 
+#menu-title {
+    font-size: 2vw;
+    font-weight: thick;
+    font-style: bold;
+}
+
 #menu-area {
   padding: 5%;
   background-color: rgb(36, 36, 36);
