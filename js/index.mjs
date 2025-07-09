@@ -1,7 +1,7 @@
-import {FileInserter} from "js/FileInserter.mjs";
-import { initImageViewer } from "assets/content/js/pictures.mjs";
-import { addTopBar } from "assets/content/js/topbar.mjs";
-import { addMenuTxt } from "assets/content/js/menu.mjs";
+import {FileInserter} from "/js/FileInserter.mjs";
+import { initImageViewer } from "/assets/content/js/pictures.mjs";
+import { addTopBar } from "/assets/content/js/topbar.mjs";
+import { addMenuTxt } from "/assets/content/js/menu.mjs";
 
 async function addContents() {
   var inserter = new FileInserter();
