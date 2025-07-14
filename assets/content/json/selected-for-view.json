@@ -1,8 +1,8 @@
 {
   "images": {
     "paths": [
-      "/assets/images/bildkuessen.png",
-      "/assets/images/bildbeissen.png"
+      "/assets/images/gallery/bildkuessen.png",
+      "/assets/images/gallery/bildbeissen.png"
     ]
   }
 }

@@ -33,10 +33,11 @@ export class ImageViewer {
             success: function (jd) {
                 var lines = jd.images.paths;
                 lines.forEach((line) => {
-                    this.loadImage(line);
+                    paths.push(line);
                 });
             },
         });
+        this.loadImages(paths);
     }
 
     setImage(index) {
